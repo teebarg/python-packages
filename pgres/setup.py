@@ -24,13 +24,26 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="tlib",
-    version="0.0.9",
+    name="zibs",
+    version="0.0.5",
     description="Test library",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    packages=find_packages(),
+    # packages=find_packages(where="src"),
+    # package_dir={"": "src"},
     # setup_requires=["setuptools_scm"],
     # use_scm_version=True,
     install_requires=[
     ],
 )
+
+
+# setup(
+#     name="zibs",
+#     description="Zib library",
+#     # packages=find_packages(),
+#     packages=find_packages(where="src"),
+#     package_dir={"": "src"},
+#     setup_requires=["setuptools_scm"],
+#     use_scm_version=True,
+#     install_requires=[],  # ["tlib"],
+# )
