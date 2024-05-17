@@ -1,8 +1,4 @@
 from setuptools import setup, find_packages
-# from setuptools_scm import get_version
-
-# # Use setuptools_scm to get the version from the Git tag
-# version = get_version(root='..', relative_to=__file__)
 
 # setup(
 #     # name='pgres',
@@ -25,25 +21,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="zibs",
-    version="0.0.5",
-    description="Test library",
+    description="Cpress package........",
     packages=find_packages(),
-    # packages=find_packages(where="src"),
-    # package_dir={"": "src"},
-    # setup_requires=["setuptools_scm"],
-    # use_scm_version=True,
-    install_requires=[
-    ],
+    use_scm_version={
+        "root": "..",
+    },
+    setup_requires=["setuptools_scm"],
+    install_requires=[],
 )
-
-
-# setup(
-#     name="zibs",
-#     description="Zib library",
-#     # packages=find_packages(),
-#     packages=find_packages(where="src"),
-#     package_dir={"": "src"},
-#     setup_requires=["setuptools_scm"],
-#     use_scm_version=True,
-#     install_requires=[],  # ["tlib"],
-# )

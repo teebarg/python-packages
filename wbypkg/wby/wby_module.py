@@ -1,3 +1,2 @@
 def wby_func():
-    print("wby................version 1.0.0")
-    pass
+    print("wby................version 2.0.0")

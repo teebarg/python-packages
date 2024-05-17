@@ -18,14 +18,12 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="zibs",
-    version="0.0.3",
-    description="Test library",
+    name="wby",
+    description="Wby library package........",
     packages=find_packages(),
-    # packages=find_packages(where="src"),
-    # package_dir={"": "src"},
-    # setup_requires=["setuptools_scm"],
-    # use_scm_version=True,
-    install_requires=[
-    ],
+    use_scm_version={
+        "root": "..",
+    },
+    setup_requires=["setuptools_scm"],
+    install_requires=[],
 )

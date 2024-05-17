@@ -1,8 +1,6 @@
 def pgres_fuc():
-    print("pgres..................version 3.0.0")
-    pass
+    print("pgres..................version 4.0.0")
 
 
 def sec_func():
-    print("pgres sec...........version 3.0.0")
-    pass
+    print("pgres sec...........version 4.0.0")
